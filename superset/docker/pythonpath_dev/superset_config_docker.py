@@ -236,7 +236,7 @@ EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
         "id": "dsfr_sun",
         "description": "Couleurs illustratives du DSFR (thème clair)",
-        "label": "DSFR (thème clair)",
+        "label": "DSFR (thème sombre)",   ## inversion"label": "DSFR (thème clair)",
         "isDefault": True,
         "colors": [
             DSFR_COLORS["sun"]["green-bourgeon-sun-425-moon-759"],
@@ -261,7 +261,7 @@ EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
         "id": "dsfr_moon",
         "description": "Couleurs illustratives du DSFR (thème sombre)",
-        "label": "DSFR (thème sombre)",
+        "label": "DSFR (thème clair)",  ## inversion "label": "DSFR (thème sombre)",
         "isDefault": False,
         "colors": [
             DSFR_COLORS["moon"]["green-bourgeon-sun-425-moon-759"],
